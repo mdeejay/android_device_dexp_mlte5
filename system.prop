@@ -1,0 +1,35 @@
+# Audio
+ro.qc.sdk.audio.fluencetype=fluence
+persist.audio.fluence.voicecall=true
+persist.audio.fluence.voicerec=false
+persist.audio.fluence.speaker=false
+
+# Display
+ro.sf.lcd_density=320
+
+# Radio
+ro.telephony.default_network=9,1
+persist.radio.multisim.config=dsds
+persist.radio.custom_ecc=1
+persist.radio.ecc_hard_1=998
+persist.radio.ecc_hard_count=1
+
+#Enable B service adj transition by default
+ro.sys.fw.bservice_enable=true
+ro.sys.fw.bservice_limit=5
+ro.sys.fw.bservice_age=5000
+
+# Factory reset protection
+ro.frp.pst=/dev/block/bootdevice/by-name/config
+
+# Latest hardware revision supported
+ro.product.model.platform=1
+
+# disable all camera debug
+persist.camera.hal.debug.mask=0
+
+# HW keys
+qemu.hw.mainkeys=1
+
+# Enable zram
+ro.config.zram=true
